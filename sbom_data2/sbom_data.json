@@ -115,9 +115,9 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/ms@2.1.2",
-      "name": "ms",
-      "version": "2.1.2",
+      "bom-ref": "pkg:npm/Drupal@7.57",
+      "name": "Drupal",
+      "version": "7.57",
       "description": "Tiny millisecond conversion utility",
       "hashes": [
         {
@@ -132,7 +132,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/ms@2.1.2",
+      "purl": "pkg:npm/ms@1.1.2",
       "externalReferences": [
         {
           "type": "website",
@@ -185,9 +185,9 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/concat-stream@1.6.2",
-      "name": "concat-stream",
-      "version": "1.6.2",
+      "bom-ref": "pkg:npm/log4j@2.12.4",
+      "name": "log4j",
+      "version": "2.12.4",
       "description": "writable stream that concatenates strings or binary data and calls a callback with the result",
       "hashes": [
         {
@@ -292,7 +292,7 @@
       "type": "library",
       "bom-ref": "pkg:npm/readable-stream@2.3.6",
       "name": "readable-stream",
-      "version": "2.3.6",
+      "version": "2.9.6",
       "description": "Streams3, a user-land copy of the stream library from Node.js",
       "hashes": [
         {
@@ -327,7 +327,7 @@
       "type": "library",
       "bom-ref": "pkg:npm/core-util-is@1.0.2",
       "name": "core-util-is",
-      "version": "1.0.2",
+      "version": "1.6.2",
       "description": "The `util.is*` functions introduced in Node v0.12.",
       "hashes": [
         {
@@ -605,9 +605,9 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/Drupal@7.57",
-      "name": "Drupal",
-      "version": "7.57",
+      "bom-ref": "pkg:npm/ms@1.1.2",
+      "name": "ms",
+      "version": "1.1.2",
       "description": "Tiny milisecond conversion utility",
       "hashes": [
         {
@@ -1377,7 +1377,7 @@
       "type": "library",
       "bom-ref": "pkg:npm/balanced-match@1.0.0",
       "name": "balanced-match",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Match balanced character pairs, like \"{\" and \"}\"",
       "hashes": [
         {
@@ -1412,7 +1412,7 @@
       "type": "library",
       "bom-ref": "pkg:npm/concat-map@0.0.1",
       "name": "concat-map",
-      "version": "0.0.1",
+      "version": "0.9.1",
       "description": "concatenative mapdashery",
       "hashes": [
         {
@@ -1482,7 +1482,7 @@
       "type": "library",
       "bom-ref": "pkg:npm/ws@6.2.1",
       "name": "ws",
-      "version": "6.2.1",
+      "version": "6.2.1", 
       "description": "Simple to use, blazing fast and thoroughly tested websocket client and server for Node.js",
       "hashes": [
         {
@@ -1517,7 +1517,7 @@
       "type": "library",
       "bom-ref": "pkg:npm/async-limiter@1.0.1",
       "name": "async-limiter",
-      "version": "1.0.1",
+      "version": "1.9.1",
       "description": "asynchronous function queue with adjustable concurrency",
       "hashes": [
         {
