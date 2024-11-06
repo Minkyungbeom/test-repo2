@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.4" version="1">
-  <metadata>
-    <tools>
-      <tool>
-        <vendor><![CDATA[cyclonedx]]></vendor>
-        <name><![CDATA[cyclonedx-php-composer]]></name>
-        <version><![CDATA[in-dev]]></version>
-        <externalReferences>
-          <reference type="distribution">
-            <url><![CDATA[../..]]></url>
-          </reference>
-          <reference type="website">
-            <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-composer/#readme]]></url>
-            <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
-          </reference>
-          <reference type="issue-tracker">
-            <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-composer/issues]]></url>
-            <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
-          </reference>
-          <reference type="vcs">
-            <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-composer/]]></url>
-            <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
-          </reference>
-        </externalReferences>
-      </tool>
-    </tools>
-    <component type="application" bom-ref="cyclonedx/cyclonedx-php-composer-demo-dev-master">
-      <author><![CDATA[Jan Kowalleck]]></author>
-      <group><![CDATA[cyclonedx]]></group>
-      <name><![CDATA[cyclonedx-php-composer-demo]]></name>
-      <version><![CDATA[dev-master]]></version>
-      <description><![CDATA[demo of cyclonedx/cyclonedx-php-composer with a pinned version of laravel/framework]]></description>
-      <purl><![CDATA[pkg:composer/cyclonedx/cyclonedx-php-composer-demo@dev-master]]></purl>
-      <properties>
-        <property name="cdx:composer:package:type"><![CDATA[project]]></property>
-      </properties>
-    </component>
-  </metadata>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.1" version="1">
   <components>
-    <component type="library" bom-ref="asm89/stack-cors-1.3.0.0">
-      <author><![CDATA[Alexander]]></author>
+    <component type="library">
       <group><![CDATA[asm89]]></group>
       <name><![CDATA[stack-cors]]></name>
       <version><![CDATA[1.3.0]]></version>
@@ -70,13 +32,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[b9c31def6a83f84b4d4a40d35996d375755f0e08]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[b9c31def6a83f84b4d4a40d35996d375755f0e08]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="brick/math-0.9.3.0">
+    <component type="library">
       <group><![CDATA[brick]]></group>
       <name><![CDATA[math]]></name>
       <version><![CDATA[0.9.3]]></version>
@@ -103,14 +60,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[ca57d18f028f84f777b2168cd1911b0dee2343ae]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[ca57d18f028f84f777b2168cd1911b0dee2343ae]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="doctrine/inflector-2.0.6.0">
-      <author><![CDATA[Guilherme Blanco, Roman Borschel, Benjamin Eberlei, Jonathan Wage, Johannes Schmitt]]></author>
+    <component type="library">
       <group><![CDATA[doctrine]]></group>
       <name><![CDATA[inflector]]></name>
       <version><![CDATA[2.0.6]]></version>
@@ -141,14 +92,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[d9d313a36c872fd6ee06d9a6cbcf713eaa40f024]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[d9d313a36c872fd6ee06d9a6cbcf713eaa40f024]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="doctrine/lexer-1.2.3.0">
-      <author><![CDATA[Guilherme Blanco, Roman Borschel, Johannes Schmitt]]></author>
+    <component type="library">
       <group><![CDATA[doctrine]]></group>
       <name><![CDATA[lexer]]></name>
       <version><![CDATA[1.2.3]]></version>
@@ -179,14 +124,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[c268e882d4dbdd85e36e4ad69e02dc284f89d229]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[c268e882d4dbdd85e36e4ad69e02dc284f89d229]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="dragonmantank/cron-expression-2.3.1.0">
-      <author><![CDATA[Michael Dowling, Chris Tankersley]]></author>
+    <component type="library">
       <group><![CDATA[dragonmantank]]></group>
       <name><![CDATA[cron-expression]]></name>
       <version><![CDATA[v2.3.1]]></version>
@@ -213,14 +152,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[65b2d8ee1f10915efb3b55597da3404f096acba2]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[65b2d8ee1f10915efb3b55597da3404f096acba2]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="egulias/email-validator-2.1.25.0">
-      <author><![CDATA[Eduardo Gulias Davis]]></author>
+    <component type="library">
       <group><![CDATA[egulias]]></group>
       <name><![CDATA[email-validator]]></name>
       <version><![CDATA[2.1.25]]></version>
@@ -251,14 +184,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[0dbf5d78455d4d6a41d186da50adc1122ec066f4]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[0dbf5d78455d4d6a41d186da50adc1122ec066f4]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="fideloper/proxy-4.4.2.0">
-      <author><![CDATA[Chris Fidao]]></author>
+    <component type="library">
       <group><![CDATA[fideloper]]></group>
       <name><![CDATA[proxy]]></name>
       <version><![CDATA[4.4.2]]></version>
@@ -285,14 +212,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[a751f2bc86dd8e6cfef12dc0cbdada82f5a18750]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[a751f2bc86dd8e6cfef12dc0cbdada82f5a18750]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="fruitcake/laravel-cors-1.0.6.0">
-      <author><![CDATA[Fruitcake, Barry vd. Heuvel]]></author>
+    <component type="library">
       <group><![CDATA[fruitcake]]></group>
       <name><![CDATA[laravel-cors]]></name>
       <version><![CDATA[v1.0.6]]></version>
@@ -319,14 +240,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[1d127dbec313e2e227d65e0c483765d8d7559bf6]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[1d127dbec313e2e227d65e0c483765d8d7559bf6]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="guzzlehttp/guzzle-6.5.8.0">
-      <author><![CDATA[Graham Campbell, Michael Dowling, Jeremy Lindblom, George Mponos, Tobias Nyholm, Márk Sági-Kazár, Tobias Schultze]]></author>
+    <component type="library">
       <group><![CDATA[guzzlehttp]]></group>
       <name><![CDATA[guzzle]]></name>
       <version><![CDATA[6.5.8]]></version>
@@ -357,14 +272,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[a52f0440530b54fa079ce76e8c5d196a42cad981]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[a52f0440530b54fa079ce76e8c5d196a42cad981]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="guzzlehttp/promises-1.5.2.0">
-      <author><![CDATA[Graham Campbell, Michael Dowling, Tobias Nyholm, Tobias Schultze]]></author>
+    <component type="library">
       <group><![CDATA[guzzlehttp]]></group>
       <name><![CDATA[promises]]></name>
       <version><![CDATA[1.5.2]]></version>
@@ -391,14 +300,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[b94b2807d85443f9719887892882d0329d1e2598]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[b94b2807d85443f9719887892882d0329d1e2598]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="guzzlehttp/psr7-1.9.0.0">
-      <author><![CDATA[Graham Campbell, Michael Dowling, George Mponos, Tobias Nyholm, Márk Sági-Kazár, Tobias Schultze]]></author>
+    <component type="library">
       <group><![CDATA[guzzlehttp]]></group>
       <name><![CDATA[psr7]]></name>
       <version><![CDATA[1.9.0]]></version>
@@ -425,14 +328,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[e98e3e6d4f86621a9b75f623996e6bbdeb4b9318]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[e98e3e6d4f86621a9b75f623996e6bbdeb4b9318]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="laravel/framework-7.30.6.0">
-      <author><![CDATA[Taylor Otwell]]></author>
+    <component type="library">
       <group><![CDATA[laravel]]></group>
       <name><![CDATA[framework]]></name>
       <version><![CDATA[v7.30.6]]></version>
@@ -463,13 +360,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[ecdafad1dda3c790af186a6d18479ea4757ef9ee]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[ecdafad1dda3c790af186a6d18479ea4757ef9ee]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="laravel/laravel-7.12.0.0">
+    <component type="library">
       <group><![CDATA[laravel]]></group>
       <name><![CDATA[laravel]]></name>
       <version><![CDATA[v7.12.0]]></version>
@@ -492,14 +384,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[5639581ea56ecd556cdf6e6edc37ce5795740fd7]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[5639581ea56ecd556cdf6e6edc37ce5795740fd7]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[project]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="laravel/tinker-2.7.3.0">
-      <author><![CDATA[Taylor Otwell]]></author>
+    <component type="library">
       <group><![CDATA[laravel]]></group>
       <name><![CDATA[tinker]]></name>
       <version><![CDATA[v2.7.3]]></version>
@@ -526,14 +412,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[5062061b4924af3392225dd482ca7b4d85d8b8ef]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[5062061b4924af3392225dd482ca7b4d85d8b8ef]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="league/commonmark-1.6.7.0">
-      <author><![CDATA[Colin O'Dell]]></author>
+    <component type="library">
       <group><![CDATA[league]]></group>
       <name><![CDATA[commonmark]]></name>
       <version><![CDATA[1.6.7]]></version>
@@ -572,14 +452,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[2b8185c13bc9578367a5bf901881d1c1b5bbd09b]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[2b8185c13bc9578367a5bf901881d1c1b5bbd09b]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="league/flysystem-1.1.10.0">
-      <author><![CDATA[Frank de Jonge]]></author>
+    <component type="library">
       <group><![CDATA[league]]></group>
       <name><![CDATA[flysystem]]></name>
       <version><![CDATA[1.1.10]]></version>
@@ -606,14 +480,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[3239285c825c152bcc315fe0e87d6b55f5972ed1]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[3239285c825c152bcc315fe0e87d6b55f5972ed1]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="league/mime-type-detection-1.11.0.0">
-      <author><![CDATA[Frank de Jonge]]></author>
+    <component type="library">
       <group><![CDATA[league]]></group>
       <name><![CDATA[mime-type-detection]]></name>
       <version><![CDATA[1.11.0]]></version>
@@ -640,14 +508,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[ff6248ea87a9f116e78edd6002e39e5128a0d4dd]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[ff6248ea87a9f116e78edd6002e39e5128a0d4dd]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="monolog/monolog-2.8.0.0">
-      <author><![CDATA[Jordi Boggiano]]></author>
+    <component type="library">
       <group><![CDATA[monolog]]></group>
       <name><![CDATA[monolog]]></name>
       <version><![CDATA[2.8.0]]></version>
@@ -678,14 +540,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[720488632c590286b88b80e62aa3d3d551ad4a50]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[720488632c590286b88b80e62aa3d3d551ad4a50]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="nesbot/carbon-2.63.0.0">
-      <author><![CDATA[Brian Nesbitt, kylekatarnls]]></author>
+    <component type="library">
       <group><![CDATA[nesbot]]></group>
       <name><![CDATA[carbon]]></name>
       <version><![CDATA[2.63.0]]></version>
@@ -720,14 +576,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[ad35dd71a6a212b98e4b87e97389b6fa85f0e347]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[ad35dd71a6a212b98e4b87e97389b6fa85f0e347]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="nikic/php-parser-4.15.2.0">
-      <author><![CDATA[Nikita Popov]]></author>
+    <component type="library">
       <group><![CDATA[nikic]]></group>
       <name><![CDATA[php-parser]]></name>
       <version><![CDATA[v4.15.2]]></version>
@@ -754,14 +604,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[f59bbe44bf7d96f24f3e2b4ddc21cd52c1d2adbc]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[f59bbe44bf7d96f24f3e2b4ddc21cd52c1d2adbc]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="opis/closure-3.6.3.0">
-      <author><![CDATA[Marius Sarca, Sorin Sarca]]></author>
+    <component type="library">
       <group><![CDATA[opis]]></group>
       <name><![CDATA[closure]]></name>
       <version><![CDATA[3.6.3]]></version>
@@ -792,14 +636,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[3d81e4309d2a927abbe66df935f4bb60082805ad]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[3d81e4309d2a927abbe66df935f4bb60082805ad]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="phpoption/phpoption-1.9.0.0">
-      <author><![CDATA[Johannes M. Schmitt, Graham Campbell]]></author>
+    <component type="library">
       <group><![CDATA[phpoption]]></group>
       <name><![CDATA[phpoption]]></name>
       <version><![CDATA[1.9.0]]></version>
@@ -826,14 +664,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[dc5ff11e274a90cc1c743f66c9ad700ce50db9ab]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[dc5ff11e274a90cc1c743f66c9ad700ce50db9ab]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="psr/container-1.1.1.0">
-      <author><![CDATA[PHP-FIG]]></author>
+    <component type="library">
       <group><![CDATA[psr]]></group>
       <name><![CDATA[container]]></name>
       <version><![CDATA[1.1.1]]></version>
@@ -864,14 +696,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[8622567409010282b7aeebe4bb841fe98b58dcaf]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[8622567409010282b7aeebe4bb841fe98b58dcaf]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="psr/event-dispatcher-1.0.0.0">
-      <author><![CDATA[PHP-FIG]]></author>
+    <component type="library">
       <group><![CDATA[psr]]></group>
       <name><![CDATA[event-dispatcher]]></name>
       <version><![CDATA[1.0.0]]></version>
@@ -898,14 +724,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[dbefd12671e8a14ec7f180cab83036ed26714bb0]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[dbefd12671e8a14ec7f180cab83036ed26714bb0]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="psr/http-message-1.0.1.0">
-      <author><![CDATA[PHP-FIG]]></author>
+    <component type="library">
       <group><![CDATA[psr]]></group>
       <name><![CDATA[http-message]]></name>
       <version><![CDATA[1.0.1]]></version>
@@ -932,14 +752,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[f6561bf28d520154e4b0ec72be95418abe6d9363]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[f6561bf28d520154e4b0ec72be95418abe6d9363]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="psr/log-1.1.4.0">
-      <author><![CDATA[PHP-FIG]]></author>
+    <component type="library">
       <group><![CDATA[psr]]></group>
       <name><![CDATA[log]]></name>
       <version><![CDATA[1.1.4]]></version>
@@ -966,14 +780,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[d49695b909c3b7628b6289db5479a1c204601f11]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[d49695b909c3b7628b6289db5479a1c204601f11]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="psr/simple-cache-1.0.1.0">
-      <author><![CDATA[PHP-FIG]]></author>
+    <component type="library">
       <group><![CDATA[psr]]></group>
       <name><![CDATA[simple-cache]]></name>
       <version><![CDATA[1.0.1]]></version>
@@ -996,14 +804,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[408d5eafb83c57f6365a3ca330ff23aa4a5fa39b]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[408d5eafb83c57f6365a3ca330ff23aa4a5fa39b]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="psy/psysh-0.11.9.0">
-      <author><![CDATA[Justin Hileman]]></author>
+    <component type="library">
       <group><![CDATA[psy]]></group>
       <name><![CDATA[psysh]]></name>
       <version><![CDATA[v0.11.9]]></version>
@@ -1034,14 +836,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[1acec99d6684a54ff92f8b548a4e41b566963778]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[1acec99d6684a54ff92f8b548a4e41b566963778]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="ralouphie/getallheaders-3.0.3.0">
-      <author><![CDATA[Ralph Khattar]]></author>
+    <component type="library">
       <group><![CDATA[ralouphie]]></group>
       <name><![CDATA[getallheaders]]></name>
       <version><![CDATA[3.0.3]]></version>
@@ -1068,14 +864,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[120b605dfeb996808c31b6477290a714d356e822]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[120b605dfeb996808c31b6477290a714d356e822]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="ramsey/collection-1.2.2.0">
-      <author><![CDATA[Ben Ramsey]]></author>
+    <component type="library">
       <group><![CDATA[ramsey]]></group>
       <name><![CDATA[collection]]></name>
       <version><![CDATA[1.2.2]]></version>
@@ -1102,13 +892,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[cccc74ee5e328031b15640b51056ee8d3bb66c0a]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[cccc74ee5e328031b15640b51056ee8d3bb66c0a]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="ramsey/uuid-4.2.3.0">
+    <component type="library">
       <group><![CDATA[ramsey]]></group>
       <name><![CDATA[uuid]]></name>
       <version><![CDATA[4.2.3]]></version>
@@ -1135,14 +920,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[fc9bb7fb5388691fd7373cd44dcb4d63bbcf24df]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[fc9bb7fb5388691fd7373cd44dcb4d63bbcf24df]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="swiftmailer/swiftmailer-6.3.0.0">
-      <author><![CDATA[Chris Corbyn, Fabien Potencier]]></author>
+    <component type="library">
       <group><![CDATA[swiftmailer]]></group>
       <name><![CDATA[swiftmailer]]></name>
       <version><![CDATA[v6.3.0]]></version>
@@ -1173,14 +952,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[8a5d5072dca8f48460fce2f4131fcc495eec654c]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[8a5d5072dca8f48460fce2f4131fcc495eec654c]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/console-5.4.16.0">
-      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[console]]></name>
       <version><![CDATA[v5.4.16]]></version>
@@ -1207,14 +980,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[8e9b9c8dfb33af6057c94e1b44846bee700dc5ef]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[8e9b9c8dfb33af6057c94e1b44846bee700dc5ef]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/css-selector-5.4.11.0">
-      <author><![CDATA[Fabien Potencier, Jean-François Simon, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[css-selector]]></name>
       <version><![CDATA[v5.4.11]]></version>
@@ -1241,14 +1008,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[c1681789f059ab756001052164726ae88512ae3d]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[c1681789f059ab756001052164726ae88512ae3d]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/deprecation-contracts-2.5.2.0">
-      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[deprecation-contracts]]></name>
       <version><![CDATA[v2.5.2]]></version>
@@ -1275,14 +1036,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[e8b495ea28c1d97b5e0c121748d6f9b53d075c66]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[e8b495ea28c1d97b5e0c121748d6f9b53d075c66]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/error-handler-5.4.15.0">
-      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[error-handler]]></name>
       <version><![CDATA[v5.4.15]]></version>
@@ -1309,14 +1064,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[539cf1428b8442303c6e876ad7bf5a7babd91091]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[539cf1428b8442303c6e876ad7bf5a7babd91091]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/event-dispatcher-5.4.9.0">
-      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[event-dispatcher]]></name>
       <version><![CDATA[v5.4.9]]></version>
@@ -1343,14 +1092,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[8e6ce1cc0279e3ff3c8ff0f43813bc88d21ca1bc]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[8e6ce1cc0279e3ff3c8ff0f43813bc88d21ca1bc]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/event-dispatcher-contracts-2.5.2.0">
-      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[event-dispatcher-contracts]]></name>
       <version><![CDATA[v2.5.2]]></version>
@@ -1377,14 +1120,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[f98b54df6ad059855739db6fcbc2d36995283fe1]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[f98b54df6ad059855739db6fcbc2d36995283fe1]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/finder-5.4.11.0">
-      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[finder]]></name>
       <version><![CDATA[v5.4.11]]></version>
@@ -1411,14 +1148,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[7872a66f57caffa2916a584db1aa7f12adc76f8c]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[7872a66f57caffa2916a584db1aa7f12adc76f8c]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/http-foundation-5.4.16.0">
-      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[http-foundation]]></name>
       <version><![CDATA[v5.4.16]]></version>
@@ -1445,14 +1176,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[5032c5849aef24741e1970cb03511b0dd131d838]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[5032c5849aef24741e1970cb03511b0dd131d838]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/http-kernel-5.4.16.0">
-      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[http-kernel]]></name>
       <version><![CDATA[v5.4.16]]></version>
@@ -1479,14 +1204,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[b432c57c5de73634b1859093c1f58e3cd84455a1]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[b432c57c5de73634b1859093c1f58e3cd84455a1]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/mime-5.4.16.0">
-      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[mime]]></name>
       <version><![CDATA[v5.4.16]]></version>
@@ -1513,14 +1232,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[46eeedb08f0832b1b61a84c612d945fc85ee4734]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[46eeedb08f0832b1b61a84c612d945fc85ee4734]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/polyfill-ctype-1.27.0.0">
-      <author><![CDATA[Gert de Pagter, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[polyfill-ctype]]></name>
       <version><![CDATA[v1.27.0]]></version>
@@ -1547,14 +1260,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[5bbc823adecdae860bb64756d639ecfec17b050a]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[5bbc823adecdae860bb64756d639ecfec17b050a]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/polyfill-iconv-1.27.0.0">
-      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[polyfill-iconv]]></name>
       <version><![CDATA[v1.27.0]]></version>
@@ -1581,14 +1288,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[927013f3aac555983a5059aada98e1907d842695]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[927013f3aac555983a5059aada98e1907d842695]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/polyfill-intl-grapheme-1.27.0.0">
-      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[polyfill-intl-grapheme]]></name>
       <version><![CDATA[v1.27.0]]></version>
@@ -1615,14 +1316,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[511a08c03c1960e08a883f4cffcacd219b758354]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[511a08c03c1960e08a883f4cffcacd219b758354]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/polyfill-intl-idn-1.27.0.0">
-      <author><![CDATA[Laurent Bassin, Trevor Rowbotham, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[polyfill-intl-idn]]></name>
       <version><![CDATA[v1.27.0]]></version>
@@ -1649,14 +1344,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[639084e360537a19f9ee352433b84ce831f3d2da]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[639084e360537a19f9ee352433b84ce831f3d2da]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/polyfill-intl-normalizer-1.27.0.0">
-      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[polyfill-intl-normalizer]]></name>
       <version><![CDATA[v1.27.0]]></version>
@@ -1683,14 +1372,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[19bd1e4fcd5b91116f14d8533c57831ed00571b6]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[19bd1e4fcd5b91116f14d8533c57831ed00571b6]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/polyfill-mbstring-1.27.0.0">
-      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[polyfill-mbstring]]></name>
       <version><![CDATA[v1.27.0]]></version>
@@ -1717,14 +1400,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[8ad114f6b39e2c98a8b0e3bd907732c207c2b534]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[8ad114f6b39e2c98a8b0e3bd907732c207c2b534]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/polyfill-php72-1.27.0.0">
-      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[polyfill-php72]]></name>
       <version><![CDATA[v1.27.0]]></version>
@@ -1751,14 +1428,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[869329b1e9894268a8a61dabb69153029b7a8c97]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[869329b1e9894268a8a61dabb69153029b7a8c97]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/polyfill-php73-1.27.0.0">
-      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[polyfill-php73]]></name>
       <version><![CDATA[v1.27.0]]></version>
@@ -1785,14 +1456,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[9e8ecb5f92152187c4799efd3c96b78ccab18ff9]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[9e8ecb5f92152187c4799efd3c96b78ccab18ff9]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/polyfill-php80-1.27.0.0">
-      <author><![CDATA[Ion Bazan, Nicolas Grekas, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[polyfill-php80]]></name>
       <version><![CDATA[v1.27.0]]></version>
@@ -1819,14 +1484,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/polyfill-php81-1.27.0.0">
-      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[polyfill-php81]]></name>
       <version><![CDATA[v1.27.0]]></version>
@@ -1853,14 +1512,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[707403074c8ea6e2edaf8794b0157a0bfa52157a]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[707403074c8ea6e2edaf8794b0157a0bfa52157a]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/process-5.4.11.0">
-      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[process]]></name>
       <version><![CDATA[v5.4.11]]></version>
@@ -1887,14 +1540,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[6e75fe6874cbc7e4773d049616ab450eff537bf1]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[6e75fe6874cbc7e4773d049616ab450eff537bf1]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/routing-5.4.15.0">
-      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[routing]]></name>
       <version><![CDATA[v5.4.15]]></version>
@@ -1921,14 +1568,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[5c9b129efe9abce9470e384bf65d8a7e262eee69]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[5c9b129efe9abce9470e384bf65d8a7e262eee69]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/service-contracts-2.5.2.0">
-      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[service-contracts]]></name>
       <version><![CDATA[v2.5.2]]></version>
@@ -1955,14 +1596,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[4b426aac47d6427cc1a1d0f7e2ac724627f5966c]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[4b426aac47d6427cc1a1d0f7e2ac724627f5966c]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/string-5.4.15.0">
-      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[string]]></name>
       <version><![CDATA[v5.4.15]]></version>
@@ -1989,14 +1624,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[571334ce9f687e3e6af72db4d3b2a9431e4fd9ed]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[571334ce9f687e3e6af72db4d3b2a9431e4fd9ed]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/translation-5.4.14.0">
-      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[translation]]></name>
       <version><![CDATA[v5.4.14]]></version>
@@ -2023,14 +1652,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[f0ed07675863aa6e3939df8b1bc879450b585cab]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[f0ed07675863aa6e3939df8b1bc879450b585cab]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/translation-contracts-2.5.2.0">
-      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[translation-contracts]]></name>
       <version><![CDATA[v2.5.2]]></version>
@@ -2057,14 +1680,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[136b19dd05cdf0709db6537d058bcab6dd6e2dbe]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[136b19dd05cdf0709db6537d058bcab6dd6e2dbe]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="symfony/var-dumper-5.4.14.0">
-      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+    <component type="library">
       <group><![CDATA[symfony]]></group>
       <name><![CDATA[var-dumper]]></name>
       <version><![CDATA[v5.4.14]]></version>
@@ -2091,14 +1708,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[6894d06145fefebd9a4c7272baa026a1c394a430]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[6894d06145fefebd9a4c7272baa026a1c394a430]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="tijsverkoyen/css-to-inline-styles-2.2.5.0">
-      <author><![CDATA[Tijs Verkoyen]]></author>
+    <component type="library">
       <group><![CDATA[tijsverkoyen]]></group>
       <name><![CDATA[css-to-inline-styles]]></name>
       <version><![CDATA[2.2.5]]></version>
@@ -2129,14 +1740,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[4348a3a06651827a27d989ad1d13efec6bb49b19]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[4348a3a06651827a27d989ad1d13efec6bb49b19]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="vlucas/phpdotenv-4.3.0.0">
-      <author><![CDATA[Graham Campbell, Vance Lucas]]></author>
+    <component type="library">
       <group><![CDATA[vlucas]]></group>
       <name><![CDATA[phpdotenv]]></name>
       <version><![CDATA[v4.3.0]]></version>
@@ -2163,14 +1768,8 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[67a491df68208bef8c37092db11fa3885008efcf]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[67a491df68208bef8c37092db11fa3885008efcf]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
-    <component type="library" bom-ref="voku/portable-ascii-1.6.1.0">
-      <author><![CDATA[Lars Moelleken]]></author>
+    <component type="library">
       <group><![CDATA[voku]]></group>
       <name><![CDATA[portable-ascii]]></name>
       <version><![CDATA[1.6.1]]></version>
@@ -2201,223 +1800,6 @@
           <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
         </reference>
       </externalReferences>
-      <properties>
-        <property name="cdx:composer:package:distReference"><![CDATA[87337c91b9dfacee02452244ee14ab3c43bc485a]]></property>
-        <property name="cdx:composer:package:sourceReference"><![CDATA[87337c91b9dfacee02452244ee14ab3c43bc485a]]></property>
-        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
-      </properties>
     </component>
   </components>
-  <dependencies>
-    <dependency ref="asm89/stack-cors-1.3.0.0">
-      <dependency ref="symfony/http-foundation-5.4.16.0"/>
-      <dependency ref="symfony/http-kernel-5.4.16.0"/>
-    </dependency>
-    <dependency ref="brick/math-0.9.3.0"/>
-    <dependency ref="doctrine/inflector-2.0.6.0"/>
-    <dependency ref="doctrine/lexer-1.2.3.0"/>
-    <dependency ref="dragonmantank/cron-expression-2.3.1.0"/>
-    <dependency ref="egulias/email-validator-2.1.25.0">
-      <dependency ref="doctrine/lexer-1.2.3.0"/>
-      <dependency ref="symfony/polyfill-intl-idn-1.27.0.0"/>
-    </dependency>
-    <dependency ref="fideloper/proxy-4.4.2.0"/>
-    <dependency ref="fruitcake/laravel-cors-1.0.6.0">
-      <dependency ref="asm89/stack-cors-1.3.0.0"/>
-      <dependency ref="symfony/http-foundation-5.4.16.0"/>
-      <dependency ref="symfony/http-kernel-5.4.16.0"/>
-    </dependency>
-    <dependency ref="guzzlehttp/guzzle-6.5.8.0">
-      <dependency ref="guzzlehttp/promises-1.5.2.0"/>
-      <dependency ref="guzzlehttp/psr7-1.9.0.0"/>
-      <dependency ref="symfony/polyfill-intl-idn-1.27.0.0"/>
-    </dependency>
-    <dependency ref="guzzlehttp/promises-1.5.2.0"/>
-    <dependency ref="guzzlehttp/psr7-1.9.0.0">
-      <dependency ref="psr/http-message-1.0.1.0"/>
-      <dependency ref="ralouphie/getallheaders-3.0.3.0"/>
-    </dependency>
-    <dependency ref="laravel/framework-7.30.6.0">
-      <dependency ref="doctrine/inflector-2.0.6.0"/>
-      <dependency ref="dragonmantank/cron-expression-2.3.1.0"/>
-      <dependency ref="egulias/email-validator-2.1.25.0"/>
-      <dependency ref="league/commonmark-1.6.7.0"/>
-      <dependency ref="league/flysystem-1.1.10.0"/>
-      <dependency ref="monolog/monolog-2.8.0.0"/>
-      <dependency ref="nesbot/carbon-2.63.0.0"/>
-      <dependency ref="opis/closure-3.6.3.0"/>
-      <dependency ref="psr/container-1.1.1.0"/>
-      <dependency ref="psr/simple-cache-1.0.1.0"/>
-      <dependency ref="ramsey/uuid-4.2.3.0"/>
-      <dependency ref="swiftmailer/swiftmailer-6.3.0.0"/>
-      <dependency ref="symfony/console-5.4.16.0"/>
-      <dependency ref="symfony/error-handler-5.4.15.0"/>
-      <dependency ref="symfony/finder-5.4.11.0"/>
-      <dependency ref="symfony/http-foundation-5.4.16.0"/>
-      <dependency ref="symfony/http-kernel-5.4.16.0"/>
-      <dependency ref="symfony/mime-5.4.16.0"/>
-      <dependency ref="symfony/polyfill-php73-1.27.0.0"/>
-      <dependency ref="symfony/process-5.4.11.0"/>
-      <dependency ref="symfony/routing-5.4.15.0"/>
-      <dependency ref="symfony/var-dumper-5.4.14.0"/>
-      <dependency ref="tijsverkoyen/css-to-inline-styles-2.2.5.0"/>
-      <dependency ref="vlucas/phpdotenv-4.3.0.0"/>
-      <dependency ref="voku/portable-ascii-1.6.1.0"/>
-    </dependency>
-    <dependency ref="laravel/laravel-7.12.0.0">
-      <dependency ref="fideloper/proxy-4.4.2.0"/>
-      <dependency ref="fruitcake/laravel-cors-1.0.6.0"/>
-      <dependency ref="guzzlehttp/guzzle-6.5.8.0"/>
-      <dependency ref="laravel/framework-7.30.6.0"/>
-      <dependency ref="laravel/tinker-2.7.3.0"/>
-    </dependency>
-    <dependency ref="laravel/tinker-2.7.3.0">
-      <dependency ref="psy/psysh-0.11.9.0"/>
-      <dependency ref="symfony/var-dumper-5.4.14.0"/>
-    </dependency>
-    <dependency ref="league/commonmark-1.6.7.0"/>
-    <dependency ref="league/flysystem-1.1.10.0">
-      <dependency ref="league/mime-type-detection-1.11.0.0"/>
-    </dependency>
-    <dependency ref="league/mime-type-detection-1.11.0.0"/>
-    <dependency ref="monolog/monolog-2.8.0.0">
-      <dependency ref="psr/log-1.1.4.0"/>
-    </dependency>
-    <dependency ref="nesbot/carbon-2.63.0.0">
-      <dependency ref="symfony/polyfill-mbstring-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-      <dependency ref="symfony/translation-5.4.14.0"/>
-    </dependency>
-    <dependency ref="nikic/php-parser-4.15.2.0"/>
-    <dependency ref="opis/closure-3.6.3.0"/>
-    <dependency ref="phpoption/phpoption-1.9.0.0"/>
-    <dependency ref="psr/container-1.1.1.0"/>
-    <dependency ref="psr/event-dispatcher-1.0.0.0"/>
-    <dependency ref="psr/http-message-1.0.1.0"/>
-    <dependency ref="psr/log-1.1.4.0"/>
-    <dependency ref="psr/simple-cache-1.0.1.0"/>
-    <dependency ref="psy/psysh-0.11.9.0">
-      <dependency ref="nikic/php-parser-4.15.2.0"/>
-      <dependency ref="symfony/console-5.4.16.0"/>
-      <dependency ref="symfony/var-dumper-5.4.14.0"/>
-    </dependency>
-    <dependency ref="ralouphie/getallheaders-3.0.3.0"/>
-    <dependency ref="ramsey/collection-1.2.2.0">
-      <dependency ref="symfony/polyfill-php81-1.27.0.0"/>
-    </dependency>
-    <dependency ref="ramsey/uuid-4.2.3.0">
-      <dependency ref="brick/math-0.9.3.0"/>
-      <dependency ref="ramsey/collection-1.2.2.0"/>
-      <dependency ref="symfony/polyfill-ctype-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-    </dependency>
-    <dependency ref="swiftmailer/swiftmailer-6.3.0.0">
-      <dependency ref="egulias/email-validator-2.1.25.0"/>
-      <dependency ref="symfony/polyfill-iconv-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-intl-idn-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-mbstring-1.27.0.0"/>
-    </dependency>
-    <dependency ref="symfony/console-5.4.16.0">
-      <dependency ref="symfony/deprecation-contracts-2.5.2.0"/>
-      <dependency ref="symfony/polyfill-mbstring-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-php73-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-      <dependency ref="symfony/service-contracts-2.5.2.0"/>
-      <dependency ref="symfony/string-5.4.15.0"/>
-    </dependency>
-    <dependency ref="symfony/css-selector-5.4.11.0">
-      <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-    </dependency>
-    <dependency ref="symfony/deprecation-contracts-2.5.2.0"/>
-    <dependency ref="symfony/error-handler-5.4.15.0">
-      <dependency ref="psr/log-1.1.4.0"/>
-      <dependency ref="symfony/var-dumper-5.4.14.0"/>
-    </dependency>
-    <dependency ref="symfony/event-dispatcher-5.4.9.0">
-      <dependency ref="symfony/deprecation-contracts-2.5.2.0"/>
-      <dependency ref="symfony/event-dispatcher-contracts-2.5.2.0"/>
-      <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-    </dependency>
-    <dependency ref="symfony/event-dispatcher-contracts-2.5.2.0">
-      <dependency ref="psr/event-dispatcher-1.0.0.0"/>
-    </dependency>
-    <dependency ref="symfony/finder-5.4.11.0">
-      <dependency ref="symfony/deprecation-contracts-2.5.2.0"/>
-      <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-    </dependency>
-    <dependency ref="symfony/http-foundation-5.4.16.0">
-      <dependency ref="symfony/deprecation-contracts-2.5.2.0"/>
-      <dependency ref="symfony/polyfill-mbstring-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-    </dependency>
-    <dependency ref="symfony/http-kernel-5.4.16.0">
-      <dependency ref="psr/log-1.1.4.0"/>
-      <dependency ref="symfony/deprecation-contracts-2.5.2.0"/>
-      <dependency ref="symfony/error-handler-5.4.15.0"/>
-      <dependency ref="symfony/event-dispatcher-5.4.9.0"/>
-      <dependency ref="symfony/http-foundation-5.4.16.0"/>
-      <dependency ref="symfony/polyfill-ctype-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-php73-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-    </dependency>
-    <dependency ref="symfony/mime-5.4.16.0">
-      <dependency ref="symfony/deprecation-contracts-2.5.2.0"/>
-      <dependency ref="symfony/polyfill-intl-idn-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-mbstring-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-    </dependency>
-    <dependency ref="symfony/polyfill-ctype-1.27.0.0"/>
-    <dependency ref="symfony/polyfill-iconv-1.27.0.0"/>
-    <dependency ref="symfony/polyfill-intl-grapheme-1.27.0.0"/>
-    <dependency ref="symfony/polyfill-intl-idn-1.27.0.0">
-      <dependency ref="symfony/polyfill-intl-normalizer-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-php72-1.27.0.0"/>
-    </dependency>
-    <dependency ref="symfony/polyfill-intl-normalizer-1.27.0.0"/>
-    <dependency ref="symfony/polyfill-mbstring-1.27.0.0"/>
-    <dependency ref="symfony/polyfill-php72-1.27.0.0"/>
-    <dependency ref="symfony/polyfill-php73-1.27.0.0"/>
-    <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-    <dependency ref="symfony/polyfill-php81-1.27.0.0"/>
-    <dependency ref="symfony/process-5.4.11.0">
-      <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-    </dependency>
-    <dependency ref="symfony/routing-5.4.15.0">
-      <dependency ref="symfony/deprecation-contracts-2.5.2.0"/>
-      <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-    </dependency>
-    <dependency ref="symfony/service-contracts-2.5.2.0">
-      <dependency ref="psr/container-1.1.1.0"/>
-      <dependency ref="symfony/deprecation-contracts-2.5.2.0"/>
-    </dependency>
-    <dependency ref="symfony/string-5.4.15.0">
-      <dependency ref="symfony/polyfill-ctype-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-intl-grapheme-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-intl-normalizer-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-mbstring-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-    </dependency>
-    <dependency ref="symfony/translation-5.4.14.0">
-      <dependency ref="symfony/deprecation-contracts-2.5.2.0"/>
-      <dependency ref="symfony/polyfill-mbstring-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-      <dependency ref="symfony/translation-contracts-2.5.2.0"/>
-    </dependency>
-    <dependency ref="symfony/translation-contracts-2.5.2.0"/>
-    <dependency ref="symfony/var-dumper-5.4.14.0">
-      <dependency ref="symfony/polyfill-mbstring-1.27.0.0"/>
-      <dependency ref="symfony/polyfill-php80-1.27.0.0"/>
-    </dependency>
-    <dependency ref="tijsverkoyen/css-to-inline-styles-2.2.5.0">
-      <dependency ref="symfony/css-selector-5.4.11.0"/>
-    </dependency>
-    <dependency ref="vlucas/phpdotenv-4.3.0.0">
-      <dependency ref="phpoption/phpoption-1.9.0.0"/>
-      <dependency ref="symfony/polyfill-ctype-1.27.0.0"/>
-    </dependency>
-    <dependency ref="voku/portable-ascii-1.6.1.0"/>
-    <dependency ref="cyclonedx/cyclonedx-php-composer-demo-dev-master">
-      <dependency ref="laravel/laravel-7.12.0.0"/>
-    </dependency>
-  </dependencies>
 </bom>
